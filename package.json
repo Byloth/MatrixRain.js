@@ -6,9 +6,10 @@
 	"author": "Bylothink",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:Byloth/matrix-rain.git"
+		"url": "git+ssh://git@github.com:Byloth/matrix-rain.git"
 	},
-	"license": "ISC",
+	"license": "UNLICENSED",
+	"private": true,
 	"main": "index.html",
 	"dependencies": {
 		"gsap": "^1.19.0",
