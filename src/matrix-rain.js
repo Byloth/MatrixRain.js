@@ -1,15 +1,15 @@
 ﻿/*
- *				 MatrixRain.JS v. 2.0
+ *               MatrixRain.JS v. 2.0.1
  *
- *			  Written by Bilotta Matteo.
+ *             Written by Bilotta Matteo.
  *
- * Copyright © 2016, Bylothink. All rights reserved.
+ *  Copyright © 2016, Bylothink. All rights reserved.
  */
 
 var Letter = function(characterValue)
 {
     // Private constants:
-        var TIMES = {
+        const TIMES = {
 
             FADE_IN: 0.1,
             FADE_OUT: 3, // 2.7,
@@ -59,15 +59,15 @@ var Letter = function(characterValue)
 var Column = function(widthCanvasValue, heightCanvasValue)
 {
     // Private constants:
-        var SIZE = {
+        const SIZE = {
 
             MIN: 15,
             MAX: 20
         };
 
-        var NEW_LETTER_RATIO = 75;
+        const NEW_LETTER_RATIO = 75;
 
-        var VALID_CHARS = [
+        const VALID_CHARS = [
 
             "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
             "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",
@@ -128,9 +128,9 @@ var Column = function(widthCanvasValue, heightCanvasValue)
 var MatrixRain = function(selectorId)
 {
     // Private constants:
-        var BLUR_VALUE = 10;
-        var MAX_COLUMNS = 500000;
-        var NEW_COLUMN_RATIO = 17;
+        const BLUR_VALUE = 10;
+        const MAX_COLUMNS = 500000;
+        const NEW_COLUMN_RATIO = 17;
 
     // Private properties:
         var _this = this;

@@ -1,2 +1,5 @@
 # MatrixRain.js
-The Byloth's Matrix rain effect as HTML5's canvas object.
+The Byloth's **Matrix Rain** effect as HTML5's canvas object.
+
+## Live Demo
+Here a link to the live demo: http://demos.byloth.net/matrix-rain/
